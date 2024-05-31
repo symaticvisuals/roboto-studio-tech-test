@@ -3,8 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { TailwindIndicator } from "@/components/ui/tailwind-indicator";
 import { cn } from "@/lib/utils";
+import { inter } from "@/lib/fonts";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className)}>
+      <body className={cn(inter.className, 'w-screen overflow-x-hidden scroll-smooth')}>
         {children}
         <TailwindIndicator />
       </body>

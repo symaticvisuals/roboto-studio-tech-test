@@ -13,17 +13,17 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
 
-    --primary: 0 0% 9%;
+    --primary: 271, 91%, 65%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
+    --secondary-foreground: 271, 91%, 65%;
 
     --muted: 0 0% 96.1%;
     --muted-foreground: 0 0% 45.1%;
 
     --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
+    --accent-foreground: 271, 91%, 65%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
@@ -75,10 +75,28 @@
   }
 }
 
-
-@font-face{
-  font-family: 'Polysans';
+@font-face {
+  font-family: "Polysans";
   font-style: regular;
   font-weight: 400;
-  src: url('/fonts/PolySans Median.ttf') format('truetype');
+  src: url("/fonts/PolySans Median.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PolySans Bulky Wide";
+  src: url("https://db.onlinewebfonts.com/t/3e474a09226e19ab5228436820318a72.eot");
+  src: url("https://db.onlinewebfonts.com/t/3e474a09226e19ab5228436820318a72.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/3e474a09226e19ab5228436820318a72.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/3e474a09226e19ab5228436820318a72.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/3e474a09226e19ab5228436820318a72.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/3e474a09226e19ab5228436820318a72.svg#PolySans Bulky Wide")format("svg");
+}
+
+.radial-gradient {
+  background: rgb(24, 0, 32);
+  background: radial-gradient(
+    circle,
+    rgba(24, 0, 32, 1) 0%,
+    rgba(0, 212, 255, 0) 100%
+  );
 }
