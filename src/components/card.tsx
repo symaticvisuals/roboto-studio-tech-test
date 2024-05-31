@@ -18,9 +18,11 @@ export const Card = ({
           <Image
             className="h-full w-full object-cover rounded-3xl "
             src={imageUrl}
-            width={1000}
-            height={1000}
-            alt="Random image"
+            width={800}
+            height={800}
+            alt={text}
+            priority
+            
           />
         </div>
         <div className=" rounded-3xl bg-gradient-to-r  from-[#000000ff] via-[#000000] to-[#000000ff] opacity-20 absolute inset-0"></div>
