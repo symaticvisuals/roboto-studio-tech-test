@@ -12,8 +12,8 @@ import Link from "next/link";
 function FindMoreTalks() {
   return (
     <div className="container">
-      <div className="my-10">
-        <h2 className="font-polysansbold text-4xl">Find more talks</h2>
+      <div className="my-20">
+        <h2 className="font-polysansbold text-4xl md:text-left text-center">Find more talks</h2>
         <div className={inter.className}>
           <Tabs defaultValue="London" className="w-full bg-transparent mt-6">
             <TabsList className="flex gap-2.5 text-lg">

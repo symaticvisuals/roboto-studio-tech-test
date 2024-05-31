@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function BecomeAMember() {
   return (
-    <div className="my-10 container grid lg:grid-cols-2 gap-20">
+    <div className="my-20 mt-40 container grid lg:grid-cols-2 gap-20">
       <OrbitingCirclesDemo />
       <div className="lg:ml-12 ml-0 flex items-center">
         <div className="flex flex-col gap-10">
