@@ -14,7 +14,7 @@ function LosAngelesCards() {
       imageUrl: "/images/los-2.png",
       text: "Generative AI in Entertainment and Creativity",
       description:
-        "​The purpose of this event is to bring together industry leaders, artists, and tech startup founders, especially those in the entertainment and creativity industries from LA",
+        "​The purpose of this event is to bring together industry leaders, artists, and tech startup founders, especially those in the entertainment and creativity industries from LA.",
     },
     {
       imageUrl: "/images/los-3.png",

@@ -14,7 +14,7 @@ function SingaporeCards() {
       imageUrl: "/images/singapore-2.jpg",
       text: "Singapore | Build Together: AI Hackathon",
       description:
-        "​Come build and network with top AI hackers and Engineers from around the World",
+        "​Come build and network with top AI hackers and Engineers from around the World.",
     },
     {
       imageUrl: "/images/singapore-3.jpg",
